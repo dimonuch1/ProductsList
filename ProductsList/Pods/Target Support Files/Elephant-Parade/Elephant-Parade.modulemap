@@ -1,0 +1,6 @@
+framework module Elephant_Parade {
+  umbrella header "Elephant-Parade-umbrella.h"
+
+  export *
+  module * { export * }
+}

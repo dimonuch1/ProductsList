@@ -10,6 +10,22 @@
 		3184A6C1265610CE9319DF15 /* Pods_ProductsListTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26DE93D444433AEDDF510991 /* Pods_ProductsListTests.framework */; };
 		359A04A3F5B8931B974560A2 /* Pods_ProductsListUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D35D4481AAD322A023D534 /* Pods_ProductsListUITests.framework */; };
 		373E5B2B27AC2C50F1086D08 /* Pods_ProductsList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD133B040515412DB6853D00 /* Pods_ProductsList.framework */; };
+		4F2F0457209C8675004D6BA1 /* VelcomeScreen.Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F044B209C8674004D6BA1 /* VelcomeScreen.Module.swift */; };
+		4F2F0458209C8675004D6BA1 /* VelcomeScreen.Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F044D209C8675004D6BA1 /* VelcomeScreen.Router.swift */; };
+		4F2F0459209C8675004D6BA1 /* VelcomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F044F209C8675004D6BA1 /* VelcomeScreenView.swift */; };
+		4F2F045A209C8675004D6BA1 /* VelcomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F0450209C8675004D6BA1 /* VelcomeScreenViewController.swift */; };
+		4F2F045B209C8675004D6BA1 /* VelcomeScreen.Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F0452209C8675004D6BA1 /* VelcomeScreen.Interactor.swift */; };
+		4F2F045C209C8675004D6BA1 /* VelcomeScreen.Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F0454209C8675004D6BA1 /* VelcomeScreen.Entity.swift */; };
+		4F2F045D209C8675004D6BA1 /* VelcomeScreen.Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F0456209C8675004D6BA1 /* VelcomeScreen.Presenter.swift */; };
+		4F2F0462209C97B2004D6BA1 /* VelcomeScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F2F0461209C97B2004D6BA1 /* VelcomeScreen.storyboard */; };
+		4F2F0464209C9AA6004D6BA1 /* Elephant_Parade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2F0463209C9AA6004D6BA1 /* Elephant_Parade.framework */; };
+		4F2F0466209C9AA6004D6BA1 /* FanMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2F0465209C9AA6004D6BA1 /* FanMenu.framework */; };
+		4F2F0468209C9AA6004D6BA1 /* FSPagerView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2F0467209C9AA6004D6BA1 /* FSPagerView.framework */; };
+		4F2F046A209C9AA6004D6BA1 /* Macaw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2F0469209C9AA6004D6BA1 /* Macaw.framework */; };
+		4F2F046E209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F046C209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.swift */; };
+		4F2F046F209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F2F046D209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.xib */; };
+		4F2F0471209CA193004D6BA1 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F2F0470209CA193004D6BA1 /* Rswift.framework */; };
+		4F2F0474209CA3AE004D6BA1 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2F0473209CA3AE004D6BA1 /* R.generated.swift */; };
 		4FAAFB94200FE080004CA0B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAFB93200FE080004CA0B4 /* AppDelegate.swift */; };
 		4FAAFB96200FE080004CA0B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FAAFB95200FE080004CA0B4 /* ViewController.swift */; };
 		4FAAFB99200FE080004CA0B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FAAFB97200FE080004CA0B4 /* Main.storyboard */; };
@@ -40,6 +56,22 @@
 
 /* Begin PBXFileReference section */
 		26DE93D444433AEDDF510991 /* Pods_ProductsListTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ProductsListTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2F044B209C8674004D6BA1 /* VelcomeScreen.Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelcomeScreen.Module.swift; sourceTree = "<group>"; };
+		4F2F044D209C8675004D6BA1 /* VelcomeScreen.Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelcomeScreen.Router.swift; sourceTree = "<group>"; };
+		4F2F044F209C8675004D6BA1 /* VelcomeScreenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelcomeScreenView.swift; sourceTree = "<group>"; };
+		4F2F0450209C8675004D6BA1 /* VelcomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelcomeScreenViewController.swift; sourceTree = "<group>"; };
+		4F2F0452209C8675004D6BA1 /* VelcomeScreen.Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelcomeScreen.Interactor.swift; sourceTree = "<group>"; };
+		4F2F0454209C8675004D6BA1 /* VelcomeScreen.Entity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelcomeScreen.Entity.swift; sourceTree = "<group>"; };
+		4F2F0456209C8675004D6BA1 /* VelcomeScreen.Presenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VelcomeScreen.Presenter.swift; sourceTree = "<group>"; };
+		4F2F0461209C97B2004D6BA1 /* VelcomeScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VelcomeScreen.storyboard; sourceTree = "<group>"; };
+		4F2F0463209C9AA6004D6BA1 /* Elephant_Parade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Elephant_Parade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2F0465209C9AA6004D6BA1 /* FanMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FanMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2F0467209C9AA6004D6BA1 /* FSPagerView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FSPagerView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2F0469209C9AA6004D6BA1 /* Macaw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Macaw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2F046C209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VelcomeScreenCollectionViewCell.swift; sourceTree = "<group>"; };
+		4F2F046D209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VelcomeScreenCollectionViewCell.xib; sourceTree = "<group>"; };
+		4F2F0470209CA193004D6BA1 /* Rswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Rswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F2F0473209CA3AE004D6BA1 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
 		4FAAFB90200FE080004CA0B4 /* ProductsList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductsList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FAAFB93200FE080004CA0B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FAAFB95200FE080004CA0B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -70,6 +102,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2F0471209CA193004D6BA1 /* Rswift.framework in Frameworks */,
+				4F2F0464209C9AA6004D6BA1 /* Elephant_Parade.framework in Frameworks */,
+				4F2F0466209C9AA6004D6BA1 /* FanMenu.framework in Frameworks */,
+				4F2F0468209C9AA6004D6BA1 /* FSPagerView.framework in Frameworks */,
+				4F2F046A209C9AA6004D6BA1 /* Macaw.framework in Frameworks */,
 				373E5B2B27AC2C50F1086D08 /* Pods_ProductsList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -96,11 +133,155 @@
 		26B08289F88F3EEA70C3AEF7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F2F0470209CA193004D6BA1 /* Rswift.framework */,
+				4F2F0463209C9AA6004D6BA1 /* Elephant_Parade.framework */,
+				4F2F0465209C9AA6004D6BA1 /* FanMenu.framework */,
+				4F2F0467209C9AA6004D6BA1 /* FSPagerView.framework */,
+				4F2F0469209C9AA6004D6BA1 /* Macaw.framework */,
 				FD133B040515412DB6853D00 /* Pods_ProductsList.framework */,
 				26DE93D444433AEDDF510991 /* Pods_ProductsListTests.framework */,
 				57D35D4481AAD322A023D534 /* Pods_ProductsListUITests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4F2F0436209C83AD004D6BA1 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F0438209C8400004D6BA1 /* Application */,
+				4F2F0439209C8408004D6BA1 /* Business */,
+				4F2F043A209C841B004D6BA1 /* Common */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		4F2F0437209C83B3004D6BA1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F0473209CA3AE004D6BA1 /* R.generated.swift */,
+				4FAAFBC1200FE3A4004CA0B4 /* Files */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4F2F0438209C8400004D6BA1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F043B209C84AB004D6BA1 /* App */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4F2F0439209C8408004D6BA1 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F043C209C8528004D6BA1 /* Features */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		4F2F043A209C841B004D6BA1 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4F2F043B209C84AB004D6BA1 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4FAAFB93200FE080004CA0B4 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4F2F043C209C8528004D6BA1 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F043D209C8642004D6BA1 /* VelcomeScreen */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		4F2F043D209C8642004D6BA1 /* VelcomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F0451209C8675004D6BA1 /* Interactor */,
+				4F2F0453209C8675004D6BA1 /* Model */,
+				4F2F044A209C8674004D6BA1 /* Module */,
+				4F2F0455209C8675004D6BA1 /* Presenter */,
+				4F2F044C209C8675004D6BA1 /* Router */,
+				4F2F044E209C8675004D6BA1 /* View */,
+				4F2F045E209C8682004D6BA1 /* Storyboard */,
+			);
+			path = VelcomeScreen;
+			sourceTree = "<group>";
+		};
+		4F2F044A209C8674004D6BA1 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F044B209C8674004D6BA1 /* VelcomeScreen.Module.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		4F2F044C209C8675004D6BA1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F044D209C8675004D6BA1 /* VelcomeScreen.Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		4F2F044E209C8675004D6BA1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F046B209C9C6C004D6BA1 /* cell */,
+				4F2F044F209C8675004D6BA1 /* VelcomeScreenView.swift */,
+				4F2F0450209C8675004D6BA1 /* VelcomeScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4F2F0451209C8675004D6BA1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F0452209C8675004D6BA1 /* VelcomeScreen.Interactor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		4F2F0453209C8675004D6BA1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F0454209C8675004D6BA1 /* VelcomeScreen.Entity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4F2F0455209C8675004D6BA1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F0456209C8675004D6BA1 /* VelcomeScreen.Presenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4F2F045E209C8682004D6BA1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F0461209C97B2004D6BA1 /* VelcomeScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4F2F046B209C9C6C004D6BA1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				4F2F046C209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.swift */,
+				4F2F046D209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 		4FAAFB87200FE080004CA0B4 = {
@@ -128,8 +309,8 @@
 		4FAAFB92200FE080004CA0B4 /* ProductsList */ = {
 			isa = PBXGroup;
 			children = (
-				4FAAFBC1200FE3A4004CA0B4 /* Files */,
-				4FAAFB93200FE080004CA0B4 /* AppDelegate.swift */,
+				4F2F0436209C83AD004D6BA1 /* Code */,
+				4F2F0437209C83B3004D6BA1 /* Resources */,
 				4FAAFB95200FE080004CA0B4 /* ViewController.swift */,
 				4FAAFB97200FE080004CA0B4 /* Main.storyboard */,
 				4FAAFB9A200FE080004CA0B4 /* Assets.xcassets */,
@@ -187,11 +368,11 @@
 			buildConfigurationList = 4FAAFBB8200FE080004CA0B4 /* Build configuration list for PBXNativeTarget "ProductsList" */;
 			buildPhases = (
 				F69B18010828C3C6D69F7D79 /* [CP] Check Pods Manifest.lock */,
+				4F2F0472209CA2C4004D6BA1 /* ShellScript */,
 				4FAAFB8C200FE080004CA0B4 /* Sources */,
 				4FAAFB8D200FE080004CA0B4 /* Frameworks */,
 				4FAAFB8E200FE080004CA0B4 /* Resources */,
-				990407643C182282BA3B10BD /* [CP] Embed Pods Frameworks */,
-				ABABBB39F5A6AB206B4C2B0B /* [CP] Copy Pods Resources */,
+				C127749103088530CEEBAA8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,8 +391,6 @@
 				4FAAFBA0200FE080004CA0B4 /* Sources */,
 				4FAAFBA1200FE080004CA0B4 /* Frameworks */,
 				4FAAFBA2200FE080004CA0B4 /* Resources */,
-				17E95B73632AD6FCEB1E778A /* [CP] Embed Pods Frameworks */,
-				C4C9F89ECBA10EF8A7B3E1D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,8 +410,6 @@
 				4FAAFBAB200FE080004CA0B4 /* Sources */,
 				4FAAFBAC200FE080004CA0B4 /* Frameworks */,
 				4FAAFBAD200FE080004CA0B4 /* Resources */,
-				0120B6A4F222D1EBC01BF0D6 /* [CP] Embed Pods Frameworks */,
-				93F853FB57667AE0EA20CE7C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,7 +428,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Dmitry;
 				TargetAttributes = {
 					4FAAFB8F200FE080004CA0B4 = {
@@ -298,7 +475,9 @@
 				4FAAFB9E200FE080004CA0B4 /* LaunchScreen.storyboard in Resources */,
 				4FAAFBC3200FE3D9004CA0B4 /* Products.json in Resources */,
 				4FAAFB9B200FE080004CA0B4 /* Assets.xcassets in Resources */,
+				4F2F046F209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.xib in Resources */,
 				4FAAFBC5200FE3E2004CA0B4 /* Group.json in Resources */,
+				4F2F0462209C97B2004D6BA1 /* VelcomeScreen.storyboard in Resources */,
 				4FAAFB99200FE080004CA0B4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,21 +499,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0120B6A4F222D1EBC01BF0D6 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductsListUITests/Pods-ProductsListUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		05310505704FB9779648AD4C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -353,82 +517,49 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		17E95B73632AD6FCEB1E778A /* [CP] Embed Pods Frameworks */ = {
+		4F2F0472209CA2C4004D6BA1 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductsListTests/Pods-ProductsListTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
+			shellScript = "\"$SRCROOT/rswift\" generate \"$SRCROOT\"\n";
 		};
-		93F853FB57667AE0EA20CE7C /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductsListUITests/Pods-ProductsListUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		990407643C182282BA3B10BD /* [CP] Embed Pods Frameworks */ = {
+		C127749103088530CEEBAA8C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ProductsList/Pods-ProductsList-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Elephant-Parade/Elephant_Parade.framework",
+				"${BUILT_PRODUCTS_DIR}/FSPagerView/FSPagerView.framework",
+				"${BUILT_PRODUCTS_DIR}/FanMenu/FanMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/Macaw/Macaw.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SWXMLHash/SWXMLHash.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Elephant_Parade.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSPagerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FanMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Macaw.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWXMLHash.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductsList/Pods-ProductsList-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		ABABBB39F5A6AB206B4C2B0B /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductsList/Pods-ProductsList-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C4C9F89ECBA10EF8A7B3E1D6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductsListTests/Pods-ProductsListTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D6654909A97B7109A2989F4F /* [CP] Check Pods Manifest.lock */ = {
@@ -474,8 +605,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F2F045A209C8675004D6BA1 /* VelcomeScreenViewController.swift in Sources */,
+				4F2F045B209C8675004D6BA1 /* VelcomeScreen.Interactor.swift in Sources */,
 				4FAAFB96200FE080004CA0B4 /* ViewController.swift in Sources */,
+				4F2F045C209C8675004D6BA1 /* VelcomeScreen.Entity.swift in Sources */,
 				4FAAFB94200FE080004CA0B4 /* AppDelegate.swift in Sources */,
+				4F2F0459209C8675004D6BA1 /* VelcomeScreenView.swift in Sources */,
+				4F2F046E209C9CAD004D6BA1 /* VelcomeScreenCollectionViewCell.swift in Sources */,
+				4F2F0457209C8675004D6BA1 /* VelcomeScreen.Module.swift in Sources */,
+				4F2F0458209C8675004D6BA1 /* VelcomeScreen.Router.swift in Sources */,
+				4F2F0474209CA3AE004D6BA1 /* R.generated.swift in Sources */,
+				4F2F045D209C8675004D6BA1 /* VelcomeScreen.Presenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -544,6 +684,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -551,6 +692,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -601,6 +743,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -608,6 +751,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -643,6 +787,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62ME3G47UD;
 				INFOPLIST_FILE = ProductsList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.ProductsList;
@@ -658,6 +803,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62ME3G47UD;
 				INFOPLIST_FILE = ProductsList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = KD.ProductsList;
